@@ -9,3 +9,27 @@
 @import "blog/article.css";
 @import "blog/related.css";
 @import "misc/pswp.css";
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-primary-text: #e6e6e6;
+      --color-secondary-text: #999;
+      --color-white: #15171a;
+      --color-lighter-gray: #444;
+      --color-light-gray: #333;
+      --color-mid-gray: #222;
+      --color-dark-gray: #111;
+      --color-darker-gray: #000;
+      --color-black: #000;
+    }
+  
+    body {
+      background-color: var(--color-darker-gray);
+      color: var(--color-primary-text);
+    }
+    
+    a {
+      color: var(--color-primary-text);
+    }
+  }
+  
